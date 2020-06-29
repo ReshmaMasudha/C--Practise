@@ -1,72 +1,7 @@
 ﻿using System;
 namespace ConsoleApp1
 {
-    //class Program
-    //{
-    //    public static bool isprime(int num)
-    //    {
-    //        bool flag = true;
-    //        for (int i = 2; i <= num ; i++)
-    //        {
-
-    //            if (num % i == 0)
-    //            {
-    //                flag = false;
-    //                break;
-    //            }
-    //            if (i == 2)
-    //            {
-    //                flag = true;
-    //                break;
-    //            }
-    //        }
-    //        return flag;
-    //    }
-
-    //    private static int[] FindthePrimeNumbers(int num)
-    //    {
-    //        string numbersFound = string.Empty;
-    //        for (int i = 2; i <= num; i++)
-    //        {
-    //            if (isprime(i))
-    //                numbersFound += i;
-    //        }
-    //        int[] primeNumbers = new int[numbersFound.Length];
-    //        for (int j = 0; j < numbersFound.Length; j++)
-    //        {
-    //            primeNumbers[j] = int.Parse((numbersFound[j] + ""));
-    //        }
-    //        return primeNumbers;
-    //    }
-    //    public static void Main(string[] args)
-    //    {
-    //        int i, j = 0;
-    //        int Variable=0;
-
-
-    //        Console.WriteLine("Weight of the cake:" );
-    //        int Weight = Int32.Parse(Console.ReadLine());
-
-
-    //        int[] arr = FindthePrimeNumbers(Weight);
-
-    //        for (i=0;i<arr.Length;i++)
-    //        {
-    //            for(j=0;j<arr.Length;j++)
-    //            {
-    //                if (i + j == Weight)
-    //                    Variable = 1;
-
-    //            }
-    //        }
-
-    //        if(Variable == 1)
-    //            Console.WriteLine("Cake is for A");
-    //        else
-    //            Console.WriteLine("Cake is for B");
-    //    }
-    //}
-
+  
     class Program
     {
         public static void Main()
